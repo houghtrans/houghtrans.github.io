@@ -3,7 +3,6 @@ layout: archive
 permalink: /cv/
 title: "CV posts by tags"
 author_profile: true
-
 ---
 
 
