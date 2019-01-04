@@ -172,7 +172,6 @@ exclude:
   - assets/js/plugins
   - assets/js/_main.js
   - assets/js/vendor
-  - assets/images
   - Capfile
   - CHANGELOG
   - config
@@ -292,6 +291,7 @@ defaults:
       layout: single
       author_profile: true
       use_math: true
+      mathjax: true
   # _posts
   - scope:
       path: ""
@@ -304,3 +304,4 @@ defaults:
       share: true
       related: true
       use_math: true
+      mathjax: true

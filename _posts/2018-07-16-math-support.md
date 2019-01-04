@@ -3,6 +3,7 @@ title: Math Support
 date: 2018-07-16
 tags: MathJax
 use_math: true
+mathjax: true
 ---
 
 You can enable math support through `use_math: true` front matter which enable the MathJax.js rendering.
