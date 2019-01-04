@@ -2,6 +2,7 @@
 title: Sample Post With Images
 date: 2018-07-16
 categories: sample
+tag: cv
 ---
 
 # Lorem Ipsum

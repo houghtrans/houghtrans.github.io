@@ -51,7 +51,7 @@ reCaptcha:
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
-search                   :  true, false (default)
+search                   :  true #, false (default)
 search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia, google
 # SEO Related
@@ -236,6 +236,7 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+#  - jekyll-sitemap
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
@@ -244,6 +245,7 @@ whitelist:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+#  - jekyll-sitemap
 
 # Archives
 #  Type
@@ -301,7 +303,39 @@ defaults:
       author_profile: true
       read_time: true
       comments: # true
-      share: true
+      #share: true
       related: true
       use_math: true
       mathjax: true
+
+# Collections
+collections:
+   cv:
+     output: true
+     permalink: /:collection/:path/
+   mldl:
+     output: true
+     permalink: /:collection/:path/
+   ro:
+     output: true
+     permalink: /:collection/:path/
+   ros: 
+     output: true
+     permalink: /:collection/:path/
+   lin:
+     output: true
+     permalink: /:collection/:path/
+   se:
+     output: true
+     permalink: /:collection/:path/
+collections_dir: collections
+
+#defaults:
+  # _portfolio
+#  - scope:
+#      path: ""
+#      type: portfolio
+#    values:
+#      layout: single
+#      author_profile: false
+#      share: true
