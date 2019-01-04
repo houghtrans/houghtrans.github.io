@@ -12,6 +12,8 @@ main:
     url: /ro/
   - title: "ROS"
     url: /ros/
+  - title: "SE"
+    url: /se/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
