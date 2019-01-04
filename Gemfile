@@ -1,2 +1,7 @@
 source "https://rubygems.org"
-gemspec
+
+gem "github-pages"
+gem "jekyll-include-cache"
+group :jekyll_plugins do
+  gem "jekyll-compose"
+end
