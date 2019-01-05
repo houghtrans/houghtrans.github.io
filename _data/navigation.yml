@@ -16,6 +16,8 @@ main:
     url: /se/
   - title: "Project List"
     url: /pl/
+#  - title: "Project Doc"
+#    url: /project_doc
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
